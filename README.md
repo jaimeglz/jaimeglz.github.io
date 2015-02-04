@@ -1,6 +1,6 @@
 jaimeglz.github.io
 ==================
 
-This repository holds the HTML code and all subsidiary files for my project web pages.
+This project focuses on Python, R, and Maxima resources, references and tools for engineering and scientific computation. Special emphasis is on programming tools that include symbolic and algebraic computation.
 
-At this stage, I am going to populate it with my experimental ResourcesAndReference knowledge base.
+The web pages have been generated from the XMind maps you can find at the companion project, [ReferencesAndResources] (https://github.com/jaimeglz/ReferencesAndResources). The use of mind maps for a references and resources knowledge base is still at an experimental stage. 

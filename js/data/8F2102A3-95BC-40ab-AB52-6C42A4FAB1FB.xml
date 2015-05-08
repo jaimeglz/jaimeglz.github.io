@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.6.1.1.3:1", "", "UserServices", "EARoot/EA6/EA1/EA1/EA3/EA335.htm", "175.png", "114", "0", "", "Logical diagram0","{69E1A8BB-670C-4f0e-83D2-3D7962F9826B}");
+tocTab[tocTab.length] = new Array("0.6.1.1.3:2", "", "frmFicha", "EARoot/EA6/EA1/EA1/EA3/EA338.htm", "5.png", "E622", "0", "", "Class0","{B0A06AD7-D01F-4f54-A3CB-0C28A7DA25E3}");
+tocTab[tocTab.length] = new Array("0.6.1.1.3:3", "", "frmInicioBiblioteca", "EARoot/EA6/EA1/EA1/EA3/EA339.htm", "5.png", "E623", "0", "", "Class0","{6FB22133-2F72-4d4f-808A-687C2C193EEB}");
+tocTab[tocTab.length] = new Array("0.6.1.1.3:4", "", "frmListaAutores", "EARoot/EA6/EA1/EA1/EA3/EA340.htm", "5.png", "E624", "0", "", "Class0","{D3535D6B-33D6-4bf2-9A9C-3ADAC1E3076E}");
+tocTab[tocTab.length] = new Array("0.6.1.1.3:5", "", "frmListaObras", "EARoot/EA6/EA1/EA1/EA3/EA341.htm", "5.png", "E625", "0", "", "Class0","{5C576CA1-C33B-4253-893C-093E81DDFB47}");
+tocTab[tocTab.length] = new Array("0.6.1.1.3:6", "", "frmPagInicioConsulta", "EARoot/EA6/EA1/EA1/EA3/EA342.htm", "5.png", "E626", "0", "", "Class0","{CECED596-2D22-4758-96B9-5DE583809171}");

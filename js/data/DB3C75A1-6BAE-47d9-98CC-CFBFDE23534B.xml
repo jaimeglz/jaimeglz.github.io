@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.6:1", "", "PSM packages", "EARoot/EA6/EA305.htm", "176.png", "65", "0", "", "Package diagram0","{C28AB68C-41F7-46fc-8AA3-67F0CF79978A}");
+tocTab[tocTab.length] = new Array("0.6.1", "1", "Class models", "EARoot/EA6/EA1/EA312.htm", "4.png", "", "", "{F78D65A8-AF3A-43f1-83DA-67FCE81997FD}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2", "1", "Data base models", "EARoot/EA6/EA2/EA345.htm", "4.png", "", "", "{4DBC71F2-7650-41b8-9A77-FD511AC1DA1A}", "Package");

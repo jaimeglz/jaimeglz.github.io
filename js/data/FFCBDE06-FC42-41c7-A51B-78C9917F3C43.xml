@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.2.2:1", "", "Main project stakeholders", "EARoot/EA2/EA2/EA33.htm", "180.png", "33", "0", "", "Use Case diagram0","{B400AC57-A95D-458c-83B6-6CB049E0AA3B}");
+tocTab[tocTab.length] = new Array("0.2.2:2", "", "Administrative services director", "EARoot/EA2/EA2/EA38.htm", "6.png", "E202", "0", "", "Actor0","{280250EF-9A7A-44ab-94B4-0C94F0B568E9}");
+tocTab[tocTab.length] = new Array("0.2.2:3", "", "Chancellor", "EARoot/EA2/EA2/EA39.htm", "6.png", "E208", "0", "", "Actor0","{68CDE5AA-D277-43b3-9BA2-2362235C38FD}");
+tocTab[tocTab.length] = new Array("0.2.2:4", "", "CIO", "EARoot/EA2/EA2/EA40.htm", "6.png", "E203", "0", "", "Actor0","{E8C5EC0C-9B2B-4f51-A2B1-01161161488A}");
+tocTab[tocTab.length] = new Array("0.2.2:5", "", "Faculty", "EARoot/EA2/EA2/EA41.htm", "6.png", "E204", "0", "", "Actor0","{7981EA1F-345D-4289-80B0-9C8C7A6AB772}");
+tocTab[tocTab.length] = new Array("0.2.2:6", "", "Librarian", "EARoot/EA2/EA2/EA42.htm", "6.png", "E201", "0", "", "Actor0","{F0BB62FC-712B-4710-9C4F-99D484CD05AB}");
+tocTab[tocTab.length] = new Array("0.2.2:7", "", "Library secretary", "EARoot/EA2/EA2/EA43.htm", "6.png", "E207", "0", "", "Actor0","{B9ADDB20-1726-42ec-A214-87E800B7C853}");
+tocTab[tocTab.length] = new Array("0.2.2:8", "", "President of the Regional Tech Institute", "EARoot/EA2/EA2/EA44.htm", "6.png", "E206", "0", "", "Actor0","{026370A4-4514-42bd-B0C6-8128F028ACBA}");
+tocTab[tocTab.length] = new Array("0.2.2:9", "", "Provost", "EARoot/EA2/EA2/EA45.htm", "6.png", "E209", "0", "", "Actor0","{C660CF58-F1E1-44da-91AB-BA7BC4CDDAFB}");
+tocTab[tocTab.length] = new Array("0.2.2:10", "", "Student", "EARoot/EA2/EA2/EA47.htm", "6.png", "E205", "0", "", "Actor0","{09F12724-9E14-4e62-89D2-C0389A847029}");

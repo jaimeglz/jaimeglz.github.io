@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("0.2.3:1", "", "Library processes overview", "EARoot/EA2/EA3/EA48.htm", "189.png", "34", "0", "", "Analysis diagram0","{E76CFFF6-92B6-4afd-9A38-607DED55463A}");
+tocTab[tocTab.length] = new Array("0.2.3:2", "", "[Leased]: Item", "EARoot/EA2/EA3/EA52.htm", "25.png", "E215", "0", "", "Object0","{C7F730A3-3BDB-49fb-90B0-AAA9B58E5C00}");
+tocTab[tocTab.length] = new Array("0.2.3:3", "", "[Returned]: Item", "EARoot/EA2/EA3/EA53.htm", "25.png", "E214", "0", "", "Object0","{C6A0C54C-CF79-4795-A830-C48F1262C05E}");
+tocTab[tocTab.length] = new Array("0.2.3:4", "", "«process» Item lease", "EARoot/EA2/EA3/EA54.htm", "21.png", "E218", "0", "", "Activity0","{0AAB6848-1037-4db4-B09A-0FC36862B37D}");
+tocTab[tocTab.length] = new Array("0.2.3:5", "", "«process» Item return", "EARoot/EA2/EA3/EA55.htm", "21.png", "E217", "0", "", "Activity0","{EB576AAF-2D1D-45e0-97E3-E7B412E15630}");
+tocTab[tocTab.length] = new Array("0.2.3:6", "", "Need to read or checkout an item", "EARoot/EA2/EA3/EA56.htm", "24.png", "E213", "0", "", "Event0","{C6027C89-377F-4ba4-B551-FC1728394661}");
+tocTab[tocTab.length] = new Array("0.2.3:7", "", "«process» Retrieve bibliographic record", "EARoot/EA2/EA3/EA57.htm", "21.png", "E216", "0", "", "Activity0","{60760DF2-7A0F-4c3d-97D1-BD698D7C04BA}");
+tocTab[tocTab.length] = new Array("0.2.3:8", "", "Sought item: BibliographicRecord", "EARoot/EA2/EA3/EA58.htm", "25.png", "E212", "0", "", "Object0","{2BF87E7E-F762-4c8c-9E1D-C587096B6279}");

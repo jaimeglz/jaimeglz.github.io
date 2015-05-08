@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.2.1:1", "", "Procesos y objetivos", "EARoot/EA2/EA1/EA27.htm", "189.png", "91", "0", "", "Analysis diagram0","{6F60DDC3-5FA9-4565-8926-E92FE87C19C6}");
+tocTab[tocTab.length] = new Array("0.2.1:2", "", "«goal» Mejorar el control del inventario de ejemplares", "EARoot/EA2/EA1/EA30.htm", "25.png", "E195", "0", "", "Object0","{83472AF9-A5CA-4f47-BCEB-2B36EF13EFC8}");
+tocTab[tocTab.length] = new Array("0.2.1:3", "", "«goal» Reducir substancialmente la espera para préstamos y devoluciones", "EARoot/EA2/EA1/EA31.htm", "25.png", "E196", "0", "", "Object0","{BD4B3660-F9F2-4d6b-A512-04822DD61C9C}");
+tocTab[tocTab.length] = new Array("0.2.1:4", "", "«goal» Reducir tiempos de espera y filas para consulta de ficha", "EARoot/EA2/EA1/EA32.htm", "25.png", "E197", "0", "", "Object0","{C649D7C2-C4AF-40a6-AFA0-895A053285B2}");

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.5:1", "", "PIM overview", "EARoot/EA5/EA258.htm", "175.png", "61", "0", "", "Logical diagram0","{F7194076-6A1E-4e08-A1DA-57BC04D18272}");
+tocTab[tocTab.length] = new Array("0.5.1", "1", "CoreServices", "EARoot/EA5/EA1/EA270.htm", "4.png", "", "", "{2F6B41CF-B484-402f-B46C-7E74E83E87CF}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2", "1", "ExternalServices", "EARoot/EA5/EA2/EA296.htm", "4.png", "", "", "{8BFC0B13-A3EF-4e02-AE05-5E191EA4701A}", "Package");
+tocTab[tocTab.length] = new Array("0.5.3", "1", "UserServices", "EARoot/EA5/EA3/EA299.htm", "4.png", "", "", "{5B9DE56A-DC62-4eb5-9757-9A0117C3854D}", "Package");

@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.4.3:1", "", "Casos de uso administrativos", "EARoot/EA4/EA3/EA249.htm", "180.png", "60", "0", "", "Use Case diagram0","{0763D8EC-22A7-4cf2-924E-249112F92FE7}");
+tocTab[tocTab.length] = new Array("0.4.3:2", "", "Actualizar autores", "EARoot/EA4/EA3/EA252.htm", "7.png", "E388", "0", "", "UseCase0","{A4220371-B391-473a-A094-41047E675E36}");
+tocTab[tocTab.length] = new Array("0.4.3:3", "", "Actualizar catálogos", "EARoot/EA4/EA3/EA253.htm", "7.png", "E389", "0", "", "UseCase0","{C5CD3ED2-F499-40da-8DC6-8773D195D671}");
+tocTab[tocTab.length] = new Array("0.4.3:4", "", "Actualizar ejemplares", "EARoot/EA4/EA3/EA254.htm", "7.png", "E390", "0", "", "UseCase0","{FC6D3D38-6FCE-4188-A990-9F9589B5E599}");
+tocTab[tocTab.length] = new Array("0.4.3:5", "", "Actualizar movimientos", "EARoot/EA4/EA3/EA255.htm", "7.png", "E391", "0", "", "UseCase0","{4AEF393B-452B-4794-B643-2C555B3DDAD5}");
+tocTab[tocTab.length] = new Array("0.4.3:6", "", "Actualizar obras y fichas bibliográficas", "EARoot/EA4/EA3/EA256.htm", "7.png", "E392", "0", "", "UseCase0","{F89F7928-10C5-409a-AA82-835FC5D5BFDC}");
+tocTab[tocTab.length] = new Array("0.4.3:7", "", "Actualizar organizaciones editoras", "EARoot/EA4/EA3/EA257.htm", "7.png", "E393", "0", "", "UseCase0","{B85DEBCA-82C1-4810-A294-4FD6513D8439}");

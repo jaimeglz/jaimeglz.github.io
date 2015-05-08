@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "Computer Independent Model packages", "EARoot/EA2/EA20.htm", "176.png", "32", "0", "", "Package diagram0","{A8C3D594-45C3-4187-80A0-201BF6E04BD1}");
+tocTab[tocTab.length] = new Array("0.2.1", "1", "Objectives", "EARoot/EA2/EA1/EA29.htm", "4.png", "", "", "{3B844CEB-DA41-4910-91D4-442739CD0E47}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2", "1", "Stakeholders", "EARoot/EA2/EA2/EA35.htm", "4.png", "", "", "{FFCBDE06-FC42-41c7-A51B-78C9917F3C43}", "Package");
+tocTab[tocTab.length] = new Array("0.2.3", "1", "Processes (UML)", "EARoot/EA2/EA3/EA50.htm", "4.png", "", "", "{485F1893-7D8E-4633-869C-6A8B194CCE2D}", "Package");
+tocTab[tocTab.length] = new Array("0.2.4", "1", "Processes (BPMN)", "EARoot/EA2/EA4/EA65.htm", "4.png", "", "", "{1A56C1E9-06F6-45bc-9B34-556457AC8198}", "Package");

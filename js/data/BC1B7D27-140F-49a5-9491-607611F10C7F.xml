@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.3.1.3:1", "", "Interfaz de usuario", "EARoot/EA3/EA1/EA3/EA150.htm", "176.png", "50", "0", "", "Package diagram0","{C1483327-F8BC-4af8-9B4C-D36855E54D4E}");
+tocTab[tocTab.length] = new Array("0.3.1.3.1", "1", "Consulta de ficha bibliográfica", "EARoot/EA3/EA1/EA3/EA153.htm", "4.png", "", "", "{D04EF7DF-8AFC-496e-B332-B8BFBB1EA21B}", "Package");

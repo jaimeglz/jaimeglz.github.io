@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.7.1:1", "", "Configuración actual", "EARoot/EA7/EA1/EA370.htm", "179.png", "25", "0", "", "Deployment diagram0","{ED507B7B-EA98-4f86-99F2-6083A038564C}");
+tocTab[tocTab.length] = new Array("0.7.1:2", "", "Servidor base de datos", "EARoot/EA7/EA1/EA373.htm", "9.png", "E98", "0", "", "Node0","{95150101-31F1-4c82-BF62-0DDE146D2C3D}");
+tocTab[tocTab.length] = new Array("0.7.1:3", "", "«server» Servidor web", "EARoot/EA7/EA1/EA374.htm", "9.png", "E101", "0", "", "Node0","{C26D83FF-8D80-4274-8EF0-E3158917139B}");
+tocTab[tocTab.length] = new Array("0.7.1:4", "", "Linux Red Hat", "EARoot/EA7/EA1/EA375.htm", "10.png", "E99", "E98", "", "Component0","{434BF8A2-363B-4ad3-BD80-65024E37D395}");
+tocTab[tocTab.length] = new Array("0.7.1:5", "", "PostGreSQL", "EARoot/EA7/EA1/EA376.htm", "10.png", "E100", "E98", "", "Component0","{4EEFD252-7B1B-46f4-B7F8-BAD13200266A}");
+tocTab[tocTab.length] = new Array("0.7.1:6", "", "Apache Tomcat", "EARoot/EA7/EA1/EA377.htm", "10.png", "E102", "E101", "", "Component0","{3DED0B0C-0B7F-45bb-8D02-88DD1F256B4A}");
+tocTab[tocTab.length] = new Array("0.7.1:7", "", "Linux Red Hat", "EARoot/EA7/EA1/EA378.htm", "10.png", "E103", "E101", "", "Component0","{B9F73BD3-ADA5-43ff-B902-252D71B30026}");

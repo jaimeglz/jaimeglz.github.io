@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.5.3:1", "", "frmFicha", "EARoot/EA5/EA3/EA300.htm", "5.png", "E425", "0", "", "Class0","{922C19DE-F26A-477e-B00E-0583A5B3E0EE}");
+tocTab[tocTab.length] = new Array("0.5.3:2", "", "frmInicioBiblioteca", "EARoot/EA5/EA3/EA301.htm", "5.png", "E426", "0", "", "Class0","{8B31E239-7A9A-4e72-9534-E1129823637F}");
+tocTab[tocTab.length] = new Array("0.5.3:3", "", "frmListaAutores", "EARoot/EA5/EA3/EA302.htm", "5.png", "E427", "0", "", "Class0","{C276B4DB-9DDD-407a-AF3F-AADA4ACC46BF}");
+tocTab[tocTab.length] = new Array("0.5.3:4", "", "frmListaObras", "EARoot/EA5/EA3/EA303.htm", "5.png", "E428", "0", "", "Class0","{8A44A229-D3CB-4c5a-8AFB-5A52529E17AA}");
+tocTab[tocTab.length] = new Array("0.5.3:5", "", "frmPagInicioConsulta", "EARoot/EA5/EA3/EA304.htm", "5.png", "E429", "0", "", "Class0","{BDE68FAA-6B14-4f9b-A2E1-B04B1635326D}");

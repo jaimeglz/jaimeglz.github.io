@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.1", "1", "Introduction", "EARoot/EA1/EA14.htm", "34.png", "", "", "{A90E5275-352A-49cd-A3A3-45312660B009}", "Package");
+tocTab[tocTab.length] = new Array("0.2", "1", "CIM: Computer independent model", "EARoot/EA2/EA22.htm", "30.png", "", "", "{B459CE4B-E58C-481c-8734-F35D3570211E}", "Package");
+tocTab[tocTab.length] = new Array("0.3", "1", "Requirements", "EARoot/EA3/EA128.htm", "34.png", "", "", "{7B9AD9E5-0111-46cc-A92D-D6A8F4F173DC}", "Package");
+tocTab[tocTab.length] = new Array("0.4", "1", "Use case model", "EARoot/EA4/EA169.htm", "29.png", "", "", "{DEDEBB21-E50B-4641-BF3C-D44E117E4DF6}", "Package");
+tocTab[tocTab.length] = new Array("0.5", "1", "PIM", "EARoot/EA5/EA260.htm", "31.png", "", "", "{7455530B-AA1D-4032-A0C1-4D9B26E2997E}", "Package");
+tocTab[tocTab.length] = new Array("0.6", "1", "PSM", "EARoot/EA6/EA307.htm", "31.png", "", "", "{DB3C75A1-6BAE-47d9-98CC-CFBFDE23534B}", "Package");
+tocTab[tocTab.length] = new Array("0.7", "1", "Deployment model", "EARoot/EA7/EA368.htm", "33.png", "", "", "{F5A33306-5A05-4303-918C-6A2A16322C53}", "Package");

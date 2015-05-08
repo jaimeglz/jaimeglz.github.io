@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.4.1:1", "", "Actores", "EARoot/EA4/EA1/EA173.htm", "180.png", "55", "0", "", "Use Case diagram0","{D02A0733-67C0-42b9-8C66-7D26A7B8D536}");
+tocTab[tocTab.length] = new Array("0.4.1:2", "", "Sistema de Tesorería", "EARoot/EA4/EA1/EA179.htm", "6.png", "E322", "0", "", "Actor0","{F9E10634-160D-4bc7-B470-DB7C1D8D7C7B}");
+tocTab[tocTab.length] = new Array("0.4.1:3", "", "Sistema escolar", "EARoot/EA4/EA1/EA180.htm", "6.png", "E323", "0", "", "Actor0","{613A06A4-8979-46fa-B390-58439E1E38D9}");
+tocTab[tocTab.length] = new Array("0.4.1:4", "", "Usuario", "EARoot/EA4/EA1/EA182.htm", "6.png", "E324", "0", "", "Actor0","{0B3E00E1-A3DA-4393-BDD4-EC6DD1BAAA7C}");
+tocTab[tocTab.length] = new Array("0.4.1:5", "", "Usuario administrativo", "EARoot/EA4/EA1/EA183.htm", "6.png", "E325", "0", "", "Actor0","{CA2D90F7-AA6B-4007-ABE4-CBCA0BABC282}");

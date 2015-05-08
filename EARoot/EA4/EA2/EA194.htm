@@ -1,0 +1,385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Consultar ficha bibliográfica</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<div id="name_classifier" style="display: none;"></div>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Consultar ficha bibliográfica", " : "))</script>  : Public   UseCase</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">19/11/2005 09:42:52 a.m.</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/10/2010 09:23:49 p.m.</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{4D018177-A83E-44c8-A27C-B6ACB5865657}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA184.htm">Casos de uso primarios</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Conjunto de secuencias de eventos mediante el cual un usuario&#160; puede obtener una ficha biliográfica con la información básica de cualquiera de las obras que se encuentran en el acervo de la biblioteca.</div>
+
+<table cellpadding="0" cellspacing="0">
+	<tr>
+		<td class="ObjectSubTitle">
+			Related Diagrams:
+		</td>
+		<td>
+			
+		</td>
+	</tr>
+</table>
+<p></p><table cellpadding="0" cellspacing="0">
+	<tr>
+		<td class="ObjectSubTitle">
+			Related Elements:
+		</td>
+		<td>
+			<a href="../../EA5/EA3/EA304.htm">frmPagInicioConsulta</a>, <a href="../../EA5/EA3/EA302.htm">frmListaAutores</a>, <a href="../../EA5/EA3/EA303.htm">frmListaObras</a>, <a href="../../EA5/EA3/EA300.htm">frmFicha</a>, <a href="../../EA5/EA1/EA275.htm">Library</a>, <a href="../../EA5/EA3/EA301.htm">frmInicioBiblioteca</a>
+		</td>
+	</tr>
+</table>
+<p></p>	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Constraints');" id="ConstraintsTitle">Constraints</li>
+			<li onClick="parent.toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
+			<li onClick="parent.toggleItem('TestCases');" id="TestCasesTitle">Test Cases</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="ConstraintsTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+			  	<tr>
+					<td width="80%" class="TableHeading">Constraint</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Status</td>
+				</tr>
+				<tr>
+					<td width="80%" class="TableRow">El usuario deberá emplear un navegador soportado</td>
+					<td width="10%" class="TableRow">Pre-condition</td>
+					<td width="10%" class="TableRow">Proposed</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageConstraints596" onclick="parent.toggleDiv('detailsDIVConstraints596','DetailsImageConstraints596')" />Details:
+							<div id="detailsDIVConstraints596" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Tipos de navegadores soportados: &lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;MS Internet Explorer &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;Mozilla Firefox.&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ul&gt;&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Secuencia para realizar una consulta</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario597" onclick="parent.toggleDiv('detailsDIVScenario597','DetailsImageScenario597')" />Details:
+							<div id="detailsDIVScenario597" class="DetailsDiv" >
+							<div class="ObjectDetailsNotes">Este caso de uso inicia cuando el usuario accede a la página web de la biblioteca. &lt;br /&gt;&lt;/p&gt;&lt;p&gt;El usuario solicita iniciar la consulta de la ficha bibliográfica.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El sistema de biblioteca despliega la página para consulta de ficha bibliográfica.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El usuario: &lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;escribe el primer apellido del autor, el título o el ISBN en el campo para texto;&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;selecciona &quot;Autor&quot;, &quot;Título&quot; o &quot;ISBN&quot; como criterio de búsqueda &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;solicita iniciar la búsqueda (consúltese el ejemplo)&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ul&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;En la consulta por autor&lt;/b&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El sistema responde con una lista de los autores a los que corresponde el apellido.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El usuario selecciona el autor.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;En la consulta por título, o después de seleccionar autor&lt;/b&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El sistema presenta una lista de las obras que corresponden al autor o al título selecionado.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El usuario selecciona la obra.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;En la consulta por ISBN, o después de seleccionar la obra&lt;/b&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El sistema presenta la ficha bilbiográfica. (Consúltese el ejemplo contenido en el modelo de requisitos, sección interaz de usuario.)&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El caso de uso termina cuando el usuario abandona la página que contiene la ficha bibliográfica.&lt;br /&gt;&lt;/p&gt;</div>
+
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="StepImageScenario597" onclick="parent.toggleDiv('stepDIVScenario597','StepImageScenario597')" />Steps:
+							<div id="stepDIVScenario597" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El Usuario abre&#160; la página inicial (frmInicioBiblioteca) <br />2. El Usuario solicita realizar una consulta  <br />3. El sistema de Biblioteca abre la página para consulta de ficha bibliográfica (frmPagInicioConsulta) <br />4. El usuario escribe el primer apellido del autor <br />5. El usuario elecciona &quot;Autor&quot; como criterio de búsqueda <br />6. El usuario solicita iniciar la búsqueda <br />7. El sistema responde con la lista de autores a los que corresponde el apellido(frmListaAutores) <br />8. El usuario selecciona el autor <br />9. El sistema despliega la lista obras (frmListaObras)  <br />10. El usuario selecciona la obra. <br />11. El sistema presenta la ficha bilbiográfica (frmFicha) <br />12. El caso de uso termina cuando el usuario solicita salir del sistema <br /></div>
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario598" onclick="parent.toggleDiv('detailsDIVScenario598','DetailsImageScenario598')" />Exceptions:				<div id="detailsDIVScenario598" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">4a. Consulta por título (at 9)<br />4b. Consulta por ISBN (at 11)<br /></div>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Nueva consulta</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario600" onclick="parent.toggleDiv('detailsDIVScenario600','DetailsImageScenario600')" />Details:
+							<div id="detailsDIVScenario600" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="StepImageScenario600" onclick="parent.toggleDiv('stepDIVScenario600','StepImageScenario600')" />Steps:
+							<div id="stepDIVScenario600" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El usuario selecciona la opción para realizar otra consulta <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Consulta por ISBN</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario602" onclick="parent.toggleDiv('detailsDIVScenario602','DetailsImageScenario602')" />Details:
+							<div id="detailsDIVScenario602" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="StepImageScenario602" onclick="parent.toggleDiv('stepDIVScenario602','StepImageScenario602')" />Steps:
+							<div id="stepDIVScenario602" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El usuario escribe el ISBN en el campo de frmPagInicioConsulta para texto <br />2. El usuario selecciona &quot;ISBN&quot; como criterio de búsqueda <br />3. Solicita iniciar la búsqueda de la obra específica <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Consulta por título</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario604" onclick="parent.toggleDiv('detailsDIVScenario604','DetailsImageScenario604')" />Details:
+							<div id="detailsDIVScenario604" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="StepImageScenario604" onclick="parent.toggleDiv('stepDIVScenario604','StepImageScenario604')" />Steps:
+							<div id="stepDIVScenario604" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">1. El usuario escribe el título en el campo para texto <br />2. El usuario selecciona &quot;Título&quot; como criterio de búsqueda <br />3. El usuario solicita iniciar la búsqueda <br /></div>
+							</div>
+						</div>
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="TestCasesTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="25%" class="TableHeading">Test</td>
+					<td width="7%" class="TableHeading">Class</td>
+					<td width="7%" class="TableHeading">Type</td>
+					<td width="7%" class="TableHeading">Status</td>
+					<td width="25%" class="TableHeading">Results</td>
+				</tr>
+				<tr>
+					<td width="25%" class="TableRow"><span class="Tab"><strong>Nueva consulta</strong></span></td>
+					<td width="7%" class="TableRow">Unit</td>
+					<td width="7%" class="TableRow">Standard</td>
+					<td width="7%" class="TableRow">Not Run</td>
+					<td width="25%" class="TableRow">
+						<strong>Run Date:</strong> Invalid DateTime<br />
+						<strong>Run By:</strong> &nbsp;<br />
+						<strong>Checked:</strong> &nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="5">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageTestCases606" onclick="parent.toggleDiv('detailsDIVTestCases606','DetailsImageTestCases606')" />Details:
+							<div id="detailsDIVTestCases606" class="DetailsDiv" >
+								<strong>Description:</strong> <div class="ObjectDetailsNotes">&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Structured Specification&lt;/u&gt;&lt;/b&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Action&lt;ol&gt;&lt;li&gt;El usuario selecciona la opción para realizar otra consulta&lt;/li&gt;&lt;/ol&gt;&lt;br /&gt;&lt;/p&gt;</div>
+<br />
+								<strong>Input:</strong> &nbsp; <br />
+								<strong>Acceptance:</strong> &nbsp; <br />
+								<strong>Results:</strong>  &nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="25%" class="TableRow"><span class="Tab"><strong>Consulta por título</strong></span></td>
+					<td width="7%" class="TableRow">Unit</td>
+					<td width="7%" class="TableRow">Standard</td>
+					<td width="7%" class="TableRow">Not Run</td>
+					<td width="25%" class="TableRow">
+						<strong>Run Date:</strong> Invalid DateTime<br />
+						<strong>Run By:</strong> &nbsp;<br />
+						<strong>Checked:</strong> &nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="5">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageTestCases607" onclick="parent.toggleDiv('detailsDIVTestCases607','DetailsImageTestCases607')" />Details:
+							<div id="detailsDIVTestCases607" class="DetailsDiv" >
+								<strong>Description:</strong> <div class="ObjectDetailsNotes">&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Structured Specification&lt;/u&gt;&lt;/b&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Action&lt;ol&gt;&lt;li&gt;El usuario escribe el título en el campo para texto&lt;/li&gt;&lt;li&gt;El usuario selecciona &quot;Título&quot; como criterio de búsqueda&lt;/li&gt;&lt;li&gt;El usuario solicita iniciar la búsqueda&lt;/li&gt;&lt;/ol&gt;&lt;br /&gt;&lt;/p&gt;</div>
+<br />
+								<strong>Input:</strong> &nbsp; <br />
+								<strong>Acceptance:</strong> &nbsp; <br />
+								<strong>Results:</strong>  &nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="25%" class="TableRow"><span class="Tab"><strong>Consulta por ISBN</strong></span></td>
+					<td width="7%" class="TableRow">Unit</td>
+					<td width="7%" class="TableRow">Standard</td>
+					<td width="7%" class="TableRow">Not Run</td>
+					<td width="25%" class="TableRow">
+						<strong>Run Date:</strong> Invalid DateTime<br />
+						<strong>Run By:</strong> &nbsp;<br />
+						<strong>Checked:</strong> &nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="5">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageTestCases608" onclick="parent.toggleDiv('detailsDIVTestCases608','DetailsImageTestCases608')" />Details:
+							<div id="detailsDIVTestCases608" class="DetailsDiv" >
+								<strong>Description:</strong> <div class="ObjectDetailsNotes">&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Structured Specification&lt;/u&gt;&lt;/b&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Action&lt;ol&gt;&lt;li&gt;El usuario escribe el ISBN en el campo de frmPagInicioConsulta para texto&lt;/li&gt;&lt;li&gt;El usuario selecciona &quot;ISBN&quot; como criterio de búsqueda&lt;/li&gt;&lt;li&gt;Solicita iniciar la búsqueda de la obra específica&lt;/li&gt;&lt;/ol&gt;&lt;br /&gt;&lt;/p&gt;</div>
+<br />
+								<strong>Input:</strong> &nbsp; <br />
+								<strong>Acceptance:</strong> &nbsp; <br />
+								<strong>Results:</strong>  &nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="25%" class="TableRow"><span class="Tab"><strong>Secuencia para realizar una consulta</strong></span></td>
+					<td width="7%" class="TableRow">Unit</td>
+					<td width="7%" class="TableRow">Standard</td>
+					<td width="7%" class="TableRow">Not Run</td>
+					<td width="25%" class="TableRow">
+						<strong>Run Date:</strong> Invalid DateTime<br />
+						<strong>Run By:</strong> &nbsp;<br />
+						<strong>Checked:</strong> &nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="5">
+						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageTestCases609" onclick="parent.toggleDiv('detailsDIVTestCases609','DetailsImageTestCases609')" />Details:
+							<div id="detailsDIVTestCases609" class="DetailsDiv" >
+								<strong>Description:</strong> <div class="ObjectDetailsNotes">Este caso de uso inicia cuando el usuario accede a la página web de la biblioteca para iniciar la consulta de la ficha bibliográfica.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El usuario: &lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;escribe el primer apellido del autor, el título o el ISBN en el campo para texto;&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;selecciona &quot;Autor&quot;, &quot;Título&quot; o &quot;ISBN&quot; como criterio de búsqueda &lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;li&gt;solicita iniciar la búsqueda (consúltese el ejemplo)&lt;/li&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/ul&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;En la consulta por autor&lt;/b&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El sistema responde con una lista de los autores a los que corresponde el apellido.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El usuario selecciona el autor.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;En la consulta por título, o después de seleccionar autor&lt;/b&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El sistema presenta una lista de las obras que corresponden al autor o al título selecionado.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El usuario selecciona la obra.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;En la consulta por ISBN, o después de seleccionar la obra&lt;/b&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El sistema presenta la ficha bilbiográfica. (Consúltese el ejemplo contenido en el modelo de requisitos, sección interaz de usuario.)&lt;br /&gt;&lt;/p&gt;&lt;p&gt;El caso de uso termina cuando el usuario abandona la página que contiene la ficha bibliográfica.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Structured Specification&lt;/u&gt;&lt;/b&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Action&lt;ol&gt;&lt;li&gt;ii&lt;/li&gt;&lt;li&gt;kkk&lt;/li&gt;&lt;li&gt;oo&lt;/li&gt;&lt;li&gt;mm&lt;/li&gt;&lt;/ol&gt;&lt;br /&gt;&lt;/p&gt;</div>
+<br />
+								<strong>Input:</strong> &nbsp; <br />
+								<strong>Acceptance:</strong> &nbsp; <br />
+								<strong>Results:</strong>  &nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA3/EA2/EA166.htm">«Display» La ficha bibliográfica deberá poder consultarse con MS Explorer y Mozilla Firefox</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA3/EA2/EA165.htm">«Performance» El tiempo de respuesta normal deberá ser menor a 5 segundos</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Realization</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA182.htm">Usuario</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

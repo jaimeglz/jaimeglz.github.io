@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>FinancialStatus</title>
+<title>Item</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("FinancialStatus", " : "))</script>  : Public  &lt;&lt;table&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Item", " : "))</script>  : Public  &lt;&lt;table&gt;&gt; Class</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">06/05/2015 05:00:24 p.m.</td>
+			<td width="85%" class="ObjectDetailsValue">15/10/2013 08:24:18 a.m.</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">06/05/2015 05:33:38 p.m.</td>
+			<td class="ObjectDetailsValue">08/05/2015 12:59:56 a.m.</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -55,7 +55,7 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
-			<td class="ObjectDetailsValue">001</td>
+			<td class="ObjectDetailsValue">1.0</td>
 		</tr>
 		<tr id="proj02" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
@@ -87,19 +87,21 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{63586D7A-E37B-45da-8695-2D4415D5179E}</td>
+			<td class="ObjectDetailsValue">{9FCFE727-CAF5-40fa-A845-8CC50F4C265F}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
 			<td class="ObjectDetailsValue"><a href="EA347.htm">DDL</a></td>
 		</tr>
 	</table>
-	
+	<div class="ObjectDetailsNotes">Physical (individual) book, journal, thesis, media.</div>
+
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
 			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
 			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 		</ul>
 <div class="ItemBody" id="AttributesTable">
 	<table border="0" cellspacing="0" cellpadding="0" class="Table">
@@ -108,55 +110,7 @@ function nameClassifier(name, separator)
 		</tr>
 						<tr>
 				<td width="100%" class="TableRow">
-					<i>Private varchar(50)</i><br /><strong>&nbsp;&nbsp;estatus</strong>
-				</td>
-			</tr>
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="1">										
-					<a href="#" onclick="parent.toggleData('DetailsImageAttributes1130')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="DetailsImageAttributes1130" border="0" />Details:</a>
-					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-					
-						<tr id="DetailsImageAttributes1130_00" style="display: none;">
-							<td width="75"><i>Alias:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes1130_01" style="display: none;">
-							<td width="75"><i>Initial:</i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes1130_02" style="display: none;">
-							<td width="75"><i>Stereotype: </i></td>
-							<td>&lt;&lt;column&gt;&gt;</td>
-						</tr>
-						<tr id="DetailsImageAttributes1130_03" style="display: none;">
-							<td width="75"><i>Ordered: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes1130_04" style="display: none;">
-							<td width="75"><i>Range: </i></td>
-							<td></td>
-						</tr>
-						<tr id="DetailsImageAttributes1130_05" style="display: none;">
-							<td width="75"><i>Transient: </i></td>
-							<td>False</td>
-						</tr>
-						<tr id="DetailsImageAttributes1130_06" style="display: none;">
-							<td width="75"><i>Derived: </i></td>
-							<td>False</td>
-						</tr>
-							<tr id="DetailsImageAttributes1130_07" style="display: none;">
-							<td width="75"><i>IsID: </i></td>
-						<td>False</td>
-						</tr>
-					</table>
-					
-					
-						&nbsp;
-						
-				</td>
-			</tr>			<tr>
-				<td width="100%" class="TableRow">
-					<i>Private integer</i><br /><strong>&nbsp;&nbsp;monto</strong>
+					<i>Private varchar(50)</i><br /><strong>&nbsp;&nbsp;estado</strong>
 				</td>
 			</tr>
 			<tr>
@@ -204,7 +158,7 @@ function nameClassifier(name, separator)
 				</td>
 			</tr>			<tr>
 				<td width="100%" class="TableRow">
-					<i>Private integer</i><br /><strong>&nbsp;&nbsp;tipoPartida</strong>
+					<i>Private varchar(50)</i><br /><strong>&nbsp;&nbsp;fechaAdquisicion</strong>
 				</td>
 			</tr>
 			<tr>
@@ -252,7 +206,7 @@ function nameClassifier(name, separator)
 				</td>
 			</tr>			<tr>
 				<td width="100%" class="TableRow">
-					<i>Public integer</i><br /><strong>&nbsp;&nbsp;financialStatusID</strong>
+					<i>Private integer</i><br /><strong>&nbsp;&nbsp;numero</strong>
 				</td>
 			</tr>
 			<tr>
@@ -274,7 +228,7 @@ function nameClassifier(name, separator)
 						</tr>
 						<tr id="DetailsImageAttributes1133_03" style="display: none;">
 							<td width="75"><i>Ordered: </i></td>
-							<td>Ordered <br /></td>
+							<td></td>
 						</tr>
 						<tr id="DetailsImageAttributes1133_04" style="display: none;">
 							<td width="75"><i>Range: </i></td>
@@ -300,7 +254,7 @@ function nameClassifier(name, separator)
 				</td>
 			</tr>			<tr>
 				<td width="100%" class="TableRow">
-					<i>Public integer</i><br /><strong>&nbsp;&nbsp;usuarioID</strong>
+					<i>Public integer</i><br /><strong>&nbsp;&nbsp;itemID</strong>
 				</td>
 			</tr>
 			<tr>
@@ -322,7 +276,7 @@ function nameClassifier(name, separator)
 						</tr>
 						<tr id="DetailsImageAttributes1134_03" style="display: none;">
 							<td width="75"><i>Ordered: </i></td>
-							<td></td>
+							<td>Ordered <br /></td>
 						</tr>
 						<tr id="DetailsImageAttributes1134_04" style="display: none;">
 							<td width="75"><i>Range: </i></td>
@@ -348,7 +302,7 @@ function nameClassifier(name, separator)
 				</td>
 			</tr>			<tr>
 				<td width="100%" class="TableRow">
-					<i>Public integer</i><br /><strong>&nbsp;&nbsp;userID</strong>
+					<i>Public integer</i><br /><strong>&nbsp;&nbsp;obraID</strong>
 				</td>
 			</tr>
 			<tr>
@@ -405,21 +359,21 @@ function nameClassifier(name, separator)
 						<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>PK_FinancialStatus</strong>(					<a href="#" onclick="parent.toggleData('param{4671F25A-A55F-497f-99AD-18F4AD884287}')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="param{4671F25A-A55F-497f-99AD-18F4AD884287}" border="0" />financialStatusID: integer</a>, 
+					<strong>PK_Item</strong>(					<a href="#" onclick="parent.toggleData('param{D30388C4-45A2-494b-95C8-6F0FF9799C21}')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="param{D30388C4-45A2-494b-95C8-6F0FF9799C21}" border="0" />itemID: integer</a>, 
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{4671F25A-A55F-497f-99AD-18F4AD884287}00" style="display: none;">
+						<tr id="param{D30388C4-45A2-494b-95C8-6F0FF9799C21}00" style="display: none;">
 							<td width="50"><strong>Default:</strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{4671F25A-A55F-497f-99AD-18F4AD884287}01" style="display: none;">
+						<tr id="param{D30388C4-45A2-494b-95C8-6F0FF9799C21}01" style="display: none;">
 							<td width="50"><strong>Kind:</strong></td>
 							<td>in</td>
 						</tr>
-						<tr id="param{4671F25A-A55F-497f-99AD-18F4AD884287}02" style="display: none;">
+						<tr id="param{D30388C4-45A2-494b-95C8-6F0FF9799C21}02" style="display: none;">
 							<td width="50"><strong>Stereotype: </strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{4671F25A-A55F-497f-99AD-18F4AD884287}03" style="display: none;">
+						<tr id="param{D30388C4-45A2-494b-95C8-6F0FF9799C21}03" style="display: none;">
 							<td width="50"></td>
 							<td></td>
 						</tr>
@@ -448,21 +402,21 @@ function nameClassifier(name, separator)
 			<tr>
 				<td width="100%" class="TableRow">
 					<i>Public</i><br />
-					<strong>tiene</strong>(					<a href="#" onclick="parent.toggleData('param{1E83B7A1-5BD4-46c7-8CAA-70895B210641}')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="param{1E83B7A1-5BD4-46c7-8CAA-70895B210641}" border="0" />usuarioID: integer</a>, 
+					<strong>FK_obraID</strong>(					<a href="#" onclick="parent.toggleData('param{F306590E-5421-400d-9ADE-FBFA9A7238EA}')" style="text-decoration: none; color: #000000;"><img src="../../../../images/plus03.gif" align="absmiddle" id="param{F306590E-5421-400d-9ADE-FBFA9A7238EA}" border="0" />obraID: integer</a>, 
 					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
-						<tr id="param{1E83B7A1-5BD4-46c7-8CAA-70895B210641}00" style="display: none;">
+						<tr id="param{F306590E-5421-400d-9ADE-FBFA9A7238EA}00" style="display: none;">
 							<td width="50"><strong>Default:</strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{1E83B7A1-5BD4-46c7-8CAA-70895B210641}01" style="display: none;">
+						<tr id="param{F306590E-5421-400d-9ADE-FBFA9A7238EA}01" style="display: none;">
 							<td width="50"><strong>Kind:</strong></td>
 							<td>in</td>
 						</tr>
-						<tr id="param{1E83B7A1-5BD4-46c7-8CAA-70895B210641}02" style="display: none;">
+						<tr id="param{F306590E-5421-400d-9ADE-FBFA9A7238EA}02" style="display: none;">
 							<td width="50"><strong>Stereotype: </strong></td>
 							<td></td>
 						</tr>
-						<tr id="param{1E83B7A1-5BD4-46c7-8CAA-70895B210641}03" style="display: none;">
+						<tr id="param{F306590E-5421-400d-9ADE-FBFA9A7238EA}03" style="display: none;">
 							<td width="50"></td>
 							<td></td>
 						</tr>
@@ -499,15 +453,15 @@ function nameClassifier(name, separator)
 				</tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA365.htm">«table» User</a><br />
+						<a href="EA352.htm">«table» BibliographicRecord</a><br />
 						Class «FK» 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> tiene<br />
+						<strong>Name:</strong> FK_obraID<br />
 						&nbsp;
 					</td>
 					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> PK_User<br />
+						<strong>Name:</strong> PK_BibliographicRecord<br />
 						&nbsp;	
 					</td>
 				</tr>
@@ -515,6 +469,39 @@ function nameClassifier(name, separator)
 					<td class="TableRowBottomDashed"  colspan="3">
 						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink1138" onclick="parent.toggleDiv('detailsDIVLink1138','DetailsImageLink1138')" />Details:
 							<div id="detailsDIVLink1138" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA356.htm">«table» Movement</a><br />
+						Class «FK» 
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> FK_ejemplarID<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> PK_Item<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink1139" onclick="parent.toggleDiv('detailsDIVLink1139','DetailsImageLink1139')" />Details:
+							<div id="detailsDIVLink1139" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
